@@ -1,0 +1,22 @@
+
+<!-- saved from url=(0060)file:///C:/Users/USER/OneDrive/Documents/belajar1/bucin.HTML -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+    <h1>Hai azzah!</h1>
+    <img src="./bucin_files/love.gif">
+    <h1>kmu jelek tau</h1>
+    <button id="btn_iya" onclick="alert(&#39;HAHA JELEK&#39;)">iya</button>&nbsp;
+    <button id="btn_engga" onclick="engga(this)" style="position: absolute">
+      engga
+    </button>
+  
+  <script>
+    function engga(id) {
+      var iya = document.getElementById("btn_iya");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + iya.offsetTop;
+      id.style.left = i + "px";
+      id.style.t
+      op = j + "px";
+    }
+  </script>
+</body></html>
